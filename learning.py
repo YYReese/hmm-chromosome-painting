@@ -5,7 +5,8 @@ import numpy as np
 import pandas as pd
 np.random.seed(1234)
 from numpy.typing import ArrayLike
-from hmm import HMM  # class from hmm.py, which implements the inference methods from the previous tutorials
+from hmm import HMM  # class from hmm.py
+from multiprocessing import Pool
 
 class HMMOptimiser(object):
     """
