@@ -1,7 +1,7 @@
 ## Hidden Markov Model Probabilities
 
 
-The referencehaplotype file `refpanel.txt` and target haplotype file `samples.txt` are based on real 1000 Genomes Project human data. 
+The reference haplotype file `refpanel.txt` and target haplotype file `samples.txt` are based on real 1000 Genomes Project human data. 
 Both files have both row and column names, representing the sample population and name (row name) and genetic variant ID (column name). 
 Now, the reference haplotypes have labels which indicate which populations they are from, which are either CEU = Northern and Western European ancestry, 
 or YRI = Yoruba in Ibadan, Nigeria. Similarly, the target haplotypes have labels ASW = African Ancestry in Southwest US. 
