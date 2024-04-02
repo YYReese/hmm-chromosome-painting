@@ -146,12 +146,6 @@ class HMMOptimiser(object):
 
 
 
-initial = np.array([0.2, 0.8])
-transition = np.array([[0.2, 0.8],
-                           [0.6, 0.4]])
-emission = np.array([[0.0, 0.1],  # probability of emitting <EOS>
-                         [0.3, 0.8],
-                         [0.7, 0.1]])
 
 
 ref = pd.read_csv('data/refpanel.txt', sep='\t',engine='python')
